@@ -1,0 +1,39 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "webpack练习",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangxun123/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "tangx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangxun123/webpack/issues"
+  },
+  "homepage": "https://github.com/tangxun123/webpack#readme"
+}
